@@ -1,0 +1,56 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "animate.css": "^3.7.2",
+    "animate.css-react": "^1.0.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "d3-ease": "^1.0.6",
+    "font-awesome": "^4.7.0",
+    "jwt-decode": "^2.2.0",
+    "mdbreact": "^4.25.5",
+    "react": "^16.13.0",
+    "react-animated-css": "^1.2.1",
+    "react-animations": "^1.0.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-circular-progressbar": "^2.0.3",
+    "react-cool-tabs": "^1.1.6",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.13.0",
+    "react-move": "^6.1.0",
+    "react-responsive-carousel": "^3.1.51",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-social-icons": "^4.1.0",
+    "react-star-rating-component": "^1.4.1",
+    "react-tabs": "^3.1.0",
+    "react-transition-group": "^4.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+.App {
+  text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black !important;
+}
+.navbar-dark .navbar-brand {
+  color: black !important;
+}
+.bg-light {
+  border-bottom: 0.4px solid black;
+}
+#introcontainer {
+  background-image: url("./images/introdiv.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 92vh;
+}
+
+.aboutUsTop {
+  background-image: url("./images/introdiv.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 72vh;
+}
+
+.images1 {
+  margin-left: 42%;
+}
+
+#aboutUs_aboutus,
+#aboutUs_ourServices,
+#aboutUs_ourTeam {
+  margin-top: 30px;
+  /* background-color: aquamarine; */
+  height: auto;
+}
+
+.card-text:last-child {
+  font-size: medium;
+}
+
+.col {
+  padding: 0px;
+}
+
+.container {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  max-width: 100% !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+#maincontent {
+  height: 50vh;
+  margin-top: 10%;
+  text-align: center;
+}
+
+#maincontent h1 {
+  margin-top: 10%;
+}
+#getstarted {
+  height: 40px;
+  margin-top: 12%;
+  width: 136px;
+  border-radius: 20px;
+}
+
+#btndiv {
+  text-align: center;
+}
+
+#whatwedocontent {
+  height: 40vh;
+  margin-top: 10%;
+  text-align: center;
+}
+
+#whatwedocontent p {
+  margin-top: 0;
+  width: 70%;
+  margin-bottom: 1rem;
+  margin: auto;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+#whatwedocontent h1 {
+  margin-top: 10%;
+}
+#imagediv {
+  background-color: aquamarine;
+  border-radius: 50%;
+  height: 30vh;
+  width: 50%;
+  background-image: url("./images/introdiv.jpg");
+  background-size: cover;
+  margin: auto;
+}
+
+#imagediv h3 {
+  margin-top: 30px !important;
+}
+
+.card-img-top {
+  border-top-right-radius: 0;
+  height: 25vh;
+  width: 25vh !important;
+  border-radius: 50% !important;
+  display: block;
+  margin: 3% auto;
+  margin-top: 5% !important;
+}
+.about_us_card_img {
+  border-radius: 0px !important;
+  height: 20vh;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+#firstcontent {
+  width: 100%;
+  height: 100%;
+}
+.heading {
+  margin-top: 30px;
+}
+#images {
+  background-image: url("./images/introdiv.jpg");
+}
+a {
+  color: grey !important;
+  text-decoration: none;
+  background-color: transparent;
+  /* justify-content: space-around; */
+  padding: 0px 10px;
+}
+#aboutus,
+#ourServices,
+#ourTeam {
+  border: 1px solid black;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.our_team_image {
+  max-width: -webkit-fill-available;
+}
+
+/* Footer CSS */
+#vistotech,
+#navigation,
+#follow_us,
+#disclaimer {
+  background-color: #0d3c4d;
+  color: white;
+  height: auto;
+  border: 0.5px solid black;
+  margin: 0px;
+}
+
+footer {
+  margin-left: 0px !important;
+}
+
+#contactMainDiv {
+  background-color: aqua;
+  height: 67vh;
+}
+
+#contactUsRightDiv,
+#contactUsLeftDiv {
+  height: 67vh;
+  border: 1px solid black;
+  background-color: burlywood;
+}
+.form-control {
+  width: 57% !important;
+}
+
+#testimonial_image_1,
+#testimonial_image_2,
+#testimonial_image_3 {
+  max-width: 100%;
+}
+
+/* FAQ'S */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.faqs {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.faqs .faq {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+}
+
+.faqs .faq .faq-question {
+  position: relative;
+  font-size: 20px;
+  padding-right: 80px;
+  transition: all 0.4s ease;
+}
+
+.faqs .faq .faq-question {
+  position: relative;
+  font-size: 20px;
+  padding-right: 80px;
+}
+
+.faqs .faq .faq-question::after {
+  content: "\02795";
+  font-size: 13px;
+  margin-left: 5px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  transition: all 0.4s ease;
+}
+
+.faqs .faq .faq-answer {
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all 0.4s ease-out;
+}
+
+.faqs .faq:hover {
+  background-color: rgba(186, 219, 218, 0.308);
+}
+
+.faqs .faq.open .faq-question {
+  margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+  content: "\2796";
+}
+
+.faqs .faq.open .faq-answer {
+  max-height: 1000px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 15px;
+}

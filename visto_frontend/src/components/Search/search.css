@@ -1,0 +1,17 @@
+.input-search {
+  width: 80% !important;
+}
+
+.radio-input {
+  padding: 5px;
+}
+.btn-success.dropdown-toggle {
+  background-color: #00c851 !important;
+  margin: 0px !important;
+  border-radius: 0%;
+  height: 36px;
+}
+.form-control {
+  transition: none;
+  border-radius: 0%;
+}

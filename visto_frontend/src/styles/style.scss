@@ -1,0 +1,173 @@
+$blackColor: black;
+
+@mixin topContent($height) {
+  background-image: url("./introdiv.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: $height;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar-dark .navbar-brand {
+  color: $blackColor !important;
+  .nav-link {
+    color: $blackColor !important;
+  }
+}
+
+.bg-light {
+  border-bottom: 0.4px solid black;
+}
+
+.container {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  max-width: 100% !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+#maincontent {
+  height: 50vh;
+  margin-top: 10%;
+  text-align: center;
+  h1 {
+    margin-top: 10%;
+  }
+}
+
+#introcontainer {
+  @include topContent(92vh);
+}
+
+.aboutUsTop {
+  @include topContent(72vh);
+}
+
+#aboutUs_aboutus,
+#aboutUs_ourServices,
+#aboutUs_ourTeam {
+  margin-top: 30px;
+  height: auto;
+}
+
+.card-text:last-child {
+  font-size: medium;
+}
+
+#getstarted {
+  height: 40px;
+  margin-top: 12%;
+  width: 136px;
+  border-radius: 20px;
+}
+#btndiv {
+  text-align: center;
+}
+
+#whatwedocontent {
+  height: 40vh;
+  margin-top: 10%;
+  text-align: center;
+  h1 {
+    margin-top: 10%;
+  }
+  p {
+    margin-top: 0;
+    width: 70%;
+    margin-bottom: 1rem;
+    margin: auto;
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+}
+
+#imagediv {
+  @include topContent(30vh);
+  background-color: aquamarine;
+  border-radius: 50%;
+  width: 50%;
+  margin: auto;
+
+  h3 {
+    border-top-right-radius: 0;
+    height: 25vh;
+    width: 25vh !important;
+    border-radius: 50% !important;
+    display: block;
+    margin: 3% auto;
+    margin-top: 5% !important;
+  }
+}
+
+.card {
+  border: none !important;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+#firstcontent {
+  width: 100%;
+  height: 100%;
+}
+.heading {
+  margin-top: 30px;
+}
+#images {
+  background-image: url("./introdiv.jpg");
+}
+a {
+  color: grey !important;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0px 10px;
+}
+#aboutus,
+#ourServices,
+#ourTeam {
+  border: 1px solid black;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.our_team_image {
+  max-width: -webkit-fill-available;
+}
+
+.infoCards {
+  display: contents !important;
+  margin-left: 20px;
+}
+
+.col-sm-8 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.col-sm-4 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.mx-auto {
+  width: 800px;
+  margin-top: 30px;
+}
+
+.mx-auto img {
+  display: block;
+  // margin-left: auto;
+  margin-left: 42%;
+  margin-right: auto;
+}
+
+@import "./footer";
+@import "./faq";
+@import "./login";

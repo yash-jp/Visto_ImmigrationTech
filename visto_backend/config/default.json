@@ -1,0 +1,8 @@
+{
+  "PORT":3306,
+  "host":"capstone-visto-server.ceyhfleo8nxf.us-east-1.rds.amazonaws.com",
+  "user":"admin",
+  "password":"AdMiN123",
+  "database":"visto",
+  "jwtPrivateKey":"ourSecretKey"
+}
